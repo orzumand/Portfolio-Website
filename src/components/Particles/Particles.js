@@ -28,7 +28,7 @@ const ParticlesBackground = () => {
           fullScreen: false,
           background: {
             color: {
-              value: "#0F1624",
+              value: "#0f1624",
             },
           },
           fpsLimit: 120,
@@ -49,7 +49,7 @@ const ParticlesBackground = () => {
                 quantity: 4,
               },
               repulse: {
-                distance: 200,
+                distance: 150,
                 duration: 0.4,
               },
             },

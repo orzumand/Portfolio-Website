@@ -1,15 +1,14 @@
 import Navbar from "./components/Navbar";
 import ParticlesBackground from "./components/Particles/Particles";
-// import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Main />
       <div className="one">
         <ParticlesBackground />
-      </div>
-      <div className="two">
-        <h1>Hello my name is Hayotbek</h1>
       </div>
     </div>
   );
